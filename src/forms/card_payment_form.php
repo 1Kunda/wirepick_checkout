@@ -132,7 +132,7 @@
                 class="btn bg-[#2f64a1] text-white w-36"
                 type="submit"
             >
-                <span id="spinner" class="loading loading-spinner bloc hidden"></span>
+                <span id="spinner" class="loading loading-spinner hidden"></span>
                 pay
             </button>
         </div>
@@ -150,14 +150,12 @@ async function stall(stallTime = 7000) {
 function swapper(){
     if (element.classList.contains("hidden")) {
         element.classList.remove("hidden");
-        element.classList.add("bloc");
-        console.log("it does hidden")
+        element.classList.add("block");
     } 
     
-    else if(element.classList.contains("bloc")) {
-        element.classList.remove("bloc");
+    else if(element.classList.contains("block")) {
+        element.classList.remove("block");
         element.classList.add("hidden");
-        console.log("it does bloc")
     }
 }
 

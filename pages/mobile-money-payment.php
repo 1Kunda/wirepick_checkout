@@ -58,7 +58,6 @@
 
         // Get specific query parameters
         var pid = urlParams.get('pid');   
-        console.log(pid)
 
         if(urlParams.has('pid')) {
           if(pid === "1"){
