@@ -43,12 +43,12 @@
     
 ?>
 
-<div class="w-full md:max-w-sm px-2 static md:sticky md:top-5">
+<div class="w-full msx md:max-w-sm px-2 static md:sticky md:top-5">
     <div class="w-full bg-gray-100 rounded-md px-3 pt-3 pb-5 ">
 
         <p class="font-semibold text-center">Checkout Summary</p>
 
-        <div class="w-full h-full max-h-[400px] overflow-y-auto grow mb-5">
+        <div class="w-full h-full max-h-[500px] md:max-h-[400px] overflow-y-auto grow mb-5">
 
             <?php priceHeading('Price', "ZMW 2"); ?>
             <?php priceHeading('Charges', "ZMW 0.02"); ?>

@@ -7,7 +7,7 @@
 ?>
 
 <?php function LayoutContainerOpen() { ?>
-    <div class="w-full h-full min-h-screen mb-10 ">
+    <div class="w-full h-full min-h-[calc(100vh-128px)] mb-10 ">
 
 <?php } ?>
 
