@@ -45,7 +45,7 @@
             <div class=" w-[100px]">
                 <img
                     id="image"
-                    src=""
+                    src="/public/assets/Mastercard-logo.png"
                     width="70px"
                     alt="card payment logos"
                 />
@@ -81,9 +81,6 @@
                 }
                 else if (count === 3) {
                     imgElement.src="/public/assets/visa-card-logo.png"
-                    count++;
-                }
-                else{
                     count = 1
                 }
                 
