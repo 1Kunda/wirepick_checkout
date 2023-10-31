@@ -71,7 +71,7 @@
         </div>
 
         <div class="w-full">
-            <div class="flex w-full justify-center items-center gap-x-1 h-20">
+            <div class="flex flex-col w-full justify-center items-center gap-x-1 h-20">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" 
                         class="stroke-current shrink-0 h-6 w-6 text-green-900" 
