@@ -13,7 +13,10 @@
       include_once '../src/components/general/container.php';  
     ?>
 
-    <?php  include_once '../src/components/navigation/navigation_bar.php';  ?>
+    <?php
+      // display navigation bar 
+      include_once '../src/components/navigation/navigation_bar.php';  
+    ?>
 
     <?php LayoutContainerOpen() ?>
       <?php containerOpen() ?>

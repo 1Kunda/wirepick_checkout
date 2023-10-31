@@ -64,20 +64,22 @@
         <span>Download a copy of your receipt for your records.</span>
     </div>
 
-    <div id="content" class="w-full max-w-2xl flex flex-col items-center gap-y-5 mb-16 border border-[#2F65A1] overflow-hidden rounded-md pb-5">
+    <div id="content" class="w-full max-w-2xl h-full  flex flex-col items-center gap-y-5 mb-16 border border-[#2F65A1] overflow-hidden rounded-md pb-5">
 
-        <div class="w-full flex h-12 items-center bg-[#2F65A1] ">
+        <div class="w-full py-5  bg-[#2F65A1] ">
             <p class="font-normal text-xl w-full text-center uppercase text-white">receipt</p>
         </div>
 
-        <div>
-            <div class="flex justify-center items-center gap-x-1 h-16">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                    class="stroke-current shrink-0 h-6 w-6 text-green-900" 
-                    fill="none" 
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+        <div class="w-full">
+            <div class="flex w-full justify-center items-center gap-x-1 h-20">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        class="stroke-current shrink-0 h-6 w-6 text-green-900" 
+                        fill="none" 
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
                 <span class="uppercase font-bold text-green-900">status:success</span>
             </div>
 
@@ -181,6 +183,6 @@
         pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight, '', 'FAST');
 
         // Save the PDF
-        pdf.save('component.pdf');
+        pdf.save('receipt.pdf');
     }
 </script>

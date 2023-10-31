@@ -8,9 +8,15 @@
 
   <body>
     <?php include_once './src/components/general/layout.php'; ?>
-    <?php include_once './src/components/navigation/navigation_bar.php'; ?>
+
+
+    <?php
+      // display navigation bar
+      include_once './src/components/navigation/navigation_bar.php'; 
+    ?>
     
     <?php LayoutContainerOpen() ?>
+
       <?php
         include_once './src/components/payments/payment_methods.php';
       ?>
