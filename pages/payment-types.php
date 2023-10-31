@@ -23,7 +23,7 @@
         <div class="w-full pt-10">
           <div id="payment-methods" class="w-full block md:hidden">
               <?php 
-                backButton()
+                backButton("/");
               ?>
               <p class="font-medium text-xl mb-4 uppercase"> Payment Methods </p>
               <div class="w-full">
