@@ -13,7 +13,7 @@
 <?php function paymentTypeCard($name, $link, $imgsrc, $alt) { ?>
     <a href="<?php echo $link; ?>">
         <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded ">
-            <div class=" w-[150px]">
+            <div class=" w-[120px]">
                 <img
                     src="<?php echo $imgsrc; ?>"
                     width="60px"
@@ -41,8 +41,8 @@
 ?>
 <?php function paymentTypeCard2($base_url) { ?>
     <a href="<?php echo $base_url; ?>/pages/card-payment.php" class="w-full h-full">
-        <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded">
-            <div class="w-[150px]">
+        <div class="flex items-center min-h-[112px]  hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded">
+            <div class="w-[120px]">
                 <img
                     id="image"
                     src="<?php echo $base_url; ?>/public/assets/Mastercard-logo.png"

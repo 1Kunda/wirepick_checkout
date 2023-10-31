@@ -1789,6 +1789,14 @@ html {
   min-height: calc(100vh - 128px);
 }
 
+.min-h-\[\] {
+  min-height: ;
+}
+
+.min-h-\[112px\] {
+  min-height: 112px;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -1803,6 +1811,38 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[130px\] {
+  width: 130px;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
+.w-\[10px\] {
+  width: 10px;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[110px\] {
+  width: 110px;
+}
+
+.w-\[115px\] {
+  width: 115px;
+}
+
+.w-\[12px\] {
+  width: 12px;
 }
 
 .max-w-2xl {
