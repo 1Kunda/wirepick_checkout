@@ -8,7 +8,7 @@
 ?>
 
 <?php function containerOpen(){ ?>
-        <div class="w-full flex justify-center pl-5 pr-3">
+        <div class="w-full flex justify-center pl-3 pr-3">
             <div class="w-full max-w-6xl">
 <?php } ?>
 

@@ -1830,6 +1830,10 @@ html {
   width: 100%;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -1913,8 +1917,16 @@ html {
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-b-\[1px\] {
   border-bottom-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-\[\#2F65A1\] {
@@ -1925,6 +1937,11 @@ html {
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.border-sky-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
 }
 
 .bg-\[\#2F65A1\] {
@@ -1999,6 +2016,14 @@ html {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .text-center {

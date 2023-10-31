@@ -13,14 +13,14 @@
 <?php function paymentTypeCard($name, $link, $imgsrc, $alt) { ?>
     <a href="<?php echo $link; ?>">
         <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded ">
-            <div class=" w-[100px]">
+            <div class=" w-[150px]">
                 <img
                     src="<?php echo $imgsrc; ?>"
                     width="60px"
                     alt="<?php echo $alt; ?>"
                 />
             </div>
-            <div class="grow">
+            <div class="w-full">
                 <p class="font-medium text-lg"><?php echo $name; ?></p>
                 <p class="lowercase">instant <?php echo $name; ?>.</p>
             </div>
@@ -40,9 +40,9 @@
     */
 ?>
 <?php function paymentTypeCard2() { ?>
-    <a href="/pages/card-payment.php">
+    <a href="/pages/card-payment.php" class="w-full h-full">
         <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded">
-            <div class=" w-[100px]">
+            <div class="w-[150px]">
                 <img
                     id="image"
                     src="/public/assets/Mastercard-logo.png"
@@ -51,9 +51,9 @@
                 />
                 
             </div>
-            <div class="grow">
-                <p class="font-medium text-lg">Debit and Credit Cards</p>
-                <p>visa card, mastercard and american express payment</p>
+            <div class="w-full">
+                <p class="font-medium text-lg break-words">Debit and Credit Cards</p>
+                <p class="break-words">visa card, mastercard and american express payment</p>
             </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
