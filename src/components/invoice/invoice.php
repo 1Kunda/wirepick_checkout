@@ -64,7 +64,7 @@
         <span>Download a copy of your receipt for your records.</span>
     </div>
 
-    <div id="content" class="w-full max-w-2xl h-full  flex flex-col items-center gap-y-5 mb-16 border border-[#2F65A1] overflow-hidden rounded-md pb-5">
+    <div id="content" class="w-full max-w-2xl h-full flex flex-col items-center gap-y-5 mb-16 border border-[#2F65A1] overflow-hidden rounded-md pb-5">
 
         <div class="w-full py-5  bg-[#2F65A1] ">
             <p class="font-normal text-xl w-full text-center uppercase text-white">receipt</p>

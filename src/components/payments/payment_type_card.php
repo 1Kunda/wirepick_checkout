@@ -12,7 +12,7 @@
 ?>
 <?php function paymentTypeCard($name, $link, $imgsrc, $alt) { ?>
     <a href="<?php echo $link; ?>">
-        <div class="flex items-center h-28 hover:cursor-pointer border-b-[1px] border-gray-200">
+        <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded ">
             <div class=" w-[100px]">
                 <img
                     src="<?php echo $imgsrc; ?>"
@@ -41,7 +41,7 @@
 ?>
 <?php function paymentTypeCard2() { ?>
     <a href="/pages/card-payment.php">
-        <div class="flex items-center h-28 hover:cursor-pointer border-b-[1px] border-gray-200">
+        <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded">
             <div class=" w-[100px]">
                 <img
                     id="image"
