@@ -1,4 +1,15 @@
 
+<?php
+    /**
+     * Display Mobile Money Pyament Information.
+     *
+     * @param string $name The name of mobile money payment.
+     * @param string $link The url to the mobile money payment form.
+     * @param string $imgsrc The path to the image.
+     * @param string $alt The image alternative text.
+     * 
+    */
+?>
 <?php function paymentTypeCard($name, $link, $imgsrc, $alt) { ?>
     <a href="<?php echo $link; ?>">
         <div class="flex items-center h-28 hover:cursor-pointer border-b-[1px] border-gray-200">
@@ -23,6 +34,11 @@
 <?php } ?>
 
 
+<?php
+    /**
+     * Display Visa Card, Master Card and American Express Images. 
+    */
+?>
 <?php function paymentTypeCard2() { ?>
     <a href="/pages/card-payment.php">
         <div class="flex items-center h-28 hover:cursor-pointer border-b-[1px] border-gray-200">
@@ -37,7 +53,7 @@
             </div>
             <div class="grow">
                 <p class="font-medium text-lg">Debit and Credit Cards</p>
-                <p>Make instant payements.</p>
+                <p>visa cards, mastercard and american express payment</p>
             </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

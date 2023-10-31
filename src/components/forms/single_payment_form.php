@@ -43,13 +43,11 @@
         if (element.classList.contains("hidden")) {
             element.classList.remove("hidden");
             element.classList.add("bloc");
-            console.log("it does hidden")
         } 
         
         else if(element.classList.contains("bloc")) {
             element.classList.remove("bloc");
             element.classList.add("hidden");
-            console.log("it does bloc")
         }
     }
 
@@ -62,7 +60,6 @@
         }
 
         else{
-            console.log("hello")
 
             swapper()
             await stall()

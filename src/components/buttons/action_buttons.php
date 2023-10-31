@@ -1,4 +1,10 @@
-<?php function backButton(){ ?>
+<?php 
+/**
+ * button thats links to previous age
+ *
+ * @return void
+ */
+function backButton(){ ?>
     <div class="flex items-center mb-5 gap-x-2">
         <div class="">
             <a href="/">

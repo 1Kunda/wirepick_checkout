@@ -52,25 +52,6 @@
 
 <script>
 
-      document.addEventListener('DOMContentLoaded', function() {
-        var pElement =document.getElementById("payment_methods")
-        var urlString = window.location.search;
+    document.addEventListener('DOMContentLoaded', function() {        });  
 
-        // Create a URLSearchParams object from the URL string
-        var urlParams = new URLSearchParams(urlString);
-
-        // Get specific query parameters
-        var pid = urlParams.get('pid');   
-
-        if(urlParams.has('pid')) {
-          
-        } 
-        else {
-         
-        }
-
-
-      });
-      
-
-    </script>
+</script>

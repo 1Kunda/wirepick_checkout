@@ -1,5 +1,13 @@
 
-<?php function priceHeading($value, $description){ ?>
+<?php 
+/**
+ * Undocumented function
+ *
+ * @param string $value // 
+ * @param string $description
+ * @return void
+ */
+function priceHeading($value, $description){ ?>
     
     <div class="flex flex-col h-20 justify-center border-b-[1px] border-gray-200">
         <div>
@@ -17,7 +25,15 @@
 
 <?php } ?>
 
-<?php function detailsData($value, $description){ ?>
+<?php 
+/**
+ * Undocumented function
+ *
+ * @param string $value 
+ * @param string $description
+ * @return void
+ */
+function detailsData($value, $description){ ?>
     <div class="flex flex-col h-20 justify-center border-b-[1px] border-gray-200">
         <div>
             <p class="font-medium w-36 ">
