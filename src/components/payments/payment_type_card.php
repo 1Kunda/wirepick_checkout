@@ -22,7 +22,7 @@
             </div>
             <div class="grow">
                 <p class="font-medium text-lg"><?php echo $name; ?></p>
-                <p>Make instant payements.</p>
+                <p class="lowercase">instant <?php echo $name; ?>.</p>
             </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -53,7 +53,7 @@
             </div>
             <div class="grow">
                 <p class="font-medium text-lg">Debit and Credit Cards</p>
-                <p>visa cards, mastercard and american express payment</p>
+                <p>visa card, mastercard and american express payment</p>
             </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
