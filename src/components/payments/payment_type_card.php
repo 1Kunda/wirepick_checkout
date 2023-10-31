@@ -16,7 +16,7 @@
             <div class=" w-[100px]">
                 <img
                     src="<?php echo $imgsrc; ?>"
-                    width="70px"
+                    width="60px"
                     alt="<?php echo $alt; ?>"
                 />
             </div>
@@ -46,7 +46,7 @@
                 <img
                     id="image"
                     src="/public/assets/Mastercard-logo.png"
-                    width="70px"
+                    width="60px"
                     alt="card payment logos"
                 />
                 
