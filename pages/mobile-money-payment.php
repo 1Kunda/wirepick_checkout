@@ -23,9 +23,17 @@
                 
                 <div class="gap-x-7 flex">    
                   <div class="w-full">
-                    <?php 
-                      backButton("/pages/payment-types.php");
-                    ?>
+                    <div class="block md:hidden">
+                      <?php 
+                        backButton("/pages/payment-types.php");
+                      ?>
+                    </div>
+
+                    <div class="hidden md:block">
+                      <?php 
+                        backButton("/");
+                      ?>
+                    </div>
 
                     <p id="title-text" class="text-xl font-medium mb-4 uppercase"></p>
 
