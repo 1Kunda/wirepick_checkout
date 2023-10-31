@@ -31,7 +31,7 @@
                     <p id="title-text" class="text-xl font-medium mb-4 uppercase"> Card Payment</p>
 
                     <?php
-                      include_once '../src/components/forms/card_payment_form.php';
+                      include_once '../src/forms/card_payment_form.php';
                     ?>
 
                   </div>

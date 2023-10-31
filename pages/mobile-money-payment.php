@@ -30,7 +30,7 @@
                     <p id="title-text" class="text-xl font-medium mb-4 uppercase"></p>
 
                     <?php
-                      include_once '../src/components/forms/single_payment_form.php';
+                      include_once '../src/forms/single_payment_form.php';
                     ?>
 
                   </div>
