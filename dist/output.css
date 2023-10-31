@@ -1996,6 +1996,10 @@ html {
   text-transform: uppercase;
 }
 
+.lowercase {
+  text-transform: lowercase;
+}
+
 .text-\[\#224881\] {
   --tw-text-opacity: 1;
   color: rgb(34 72 129 / var(--tw-text-opacity));
