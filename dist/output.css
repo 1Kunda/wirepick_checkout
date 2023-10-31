@@ -1693,6 +1693,10 @@ html {
   margin-left: -1px;
 }
 
+.static {
+  position: static;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -2020,6 +2024,22 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:sticky {
+    position: sticky;
+  }
+
+  .md\:top-10 {
+    top: 2.5rem;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:top-5 {
+    top: 1.25rem;
+  }
+
   .md\:block {
     display: block;
   }
