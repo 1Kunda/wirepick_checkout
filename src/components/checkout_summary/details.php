@@ -43,7 +43,7 @@
     
 ?>
 
-<div class="w-full md:max-w-sm px-2">
+<div class="w-full md:max-w-sm px-2 static md:sticky md:top-5">
     <div class="w-full bg-gray-100 rounded-md px-3 pt-3 pb-5 ">
 
         <p class="font-semibold text-center">Checkout Summary</p>
