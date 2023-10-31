@@ -107,7 +107,7 @@
         <div class="mb-5" id="qrcode"></div>
 
         <div>
-            <img src="/public/assets/wirepick_logo.png" width="200px"/>
+            <img src=<?php echo BASE_URL."/public/assets/wirepick_logo.png"; ?> width="200px"/>
         </div>
 
     </div>
@@ -124,7 +124,7 @@
         </button>
     </div>
     <div>
-        <a href="/index.php">
+        <a href=<?php echo BASE_URL."/pages"; ?>>
             <button 
                 class="btn bg-[#2f64a1] text-white uppercase w-36"
                 type="submit"

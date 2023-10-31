@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="../dist/output.css" rel="stylesheet">
   <title>Mobile Money Payment</title>
 </head>
 
   <body>
     <?php 
+      require "../config.php";
+      
       include_once '../src/components/general/layout.php';
       include_once '../src/components/navigation/navigation_bar.php'; 
       include_once '../src/components/general/container.php';  
@@ -25,13 +27,13 @@
                   <div class="w-full">
                     <div class="block md:hidden">
                       <?php 
-                        backButton("/pages/payment-types.php");
+                        backButton(BASE_URL."/pages/payment-types.php");
                       ?>
                     </div>
 
                     <div class="hidden md:block">
                       <?php 
-                        backButton("/");
+                        backButton(BASE_URL."/pages");
                       ?>
                     </div>
 

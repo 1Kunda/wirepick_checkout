@@ -53,6 +53,7 @@
             <?php priceHeading('Price', "ZMW 2"); ?>
             <?php priceHeading('Charges', "ZMW 0.02"); ?>
             <?php priceHeading('Order Total', "ZMW 1.02"); ?>
+
             <?php
                 // Accessing values from the PHP array
                 foreach ($data as $item) {
@@ -62,7 +63,7 @@
 
         </div>
 
-        <a href="/pages/payment-types.php">
+        <a href=<?php echo BASE_URL."/pages/payment-types.php"; ?>>
             <button 
             class="btn w-full bg-[#2f64a1] text-white block md:hidden">
                 continue

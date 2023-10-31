@@ -39,13 +39,13 @@
      * Display Visa Card, Master Card and American Express Images. 
     */
 ?>
-<?php function paymentTypeCard2() { ?>
-    <a href="/pages/card-payment.php" class="w-full h-full">
+<?php function paymentTypeCard2($base_url) { ?>
+    <a href="<?php echo $base_url; ?>/pages/card-payment.php" class="w-full h-full">
         <div class="flex items-center h-28 hover:cursor-pointer hover:bg-gray-100 border-b-[1px] border-gray-200 px-3 rounded">
             <div class="w-[150px]">
                 <img
                     id="image"
-                    src="/public/assets/Mastercard-logo.png"
+                    src="<?php echo $base_url; ?>/public/assets/Mastercard-logo.png"
                     width="60px"
                     alt="card payment logos"
                 />
@@ -72,15 +72,15 @@
             const intervalId = setInterval(() => {
 
                 if (count === 1) {
-                    imgElement.src="/public/assets/Mastercard-logo.png"
+                    imgElement.src="<?php echo $base_url; ?>/public/assets/Mastercard-logo.png"
                     count++;
                 }
                 else if (count === 2) {
-                    imgElement.src="/public/assets/american_express.png"
+                    imgElement.src="<?php echo $base_url; ?>/public/assets/american_express.png"
                     count++;
                 }
                 else if (count === 3) {
-                    imgElement.src="/public/assets/visa-card-logo.png"
+                    imgElement.src="<?php echo $base_url; ?>/public/assets/visa-card-logo.png"
                     count = 1
                 }
                 

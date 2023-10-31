@@ -1,6 +1,8 @@
 <?php 
-    include_once './src/components/general/container.php';  
+    include_once '../src/components/general/container.php';  
     include 'payment_type_card.php';
+
+    $BASE_URL = BASE_URL;
 ?>
 
 <?php containerOpen() ?>
@@ -11,37 +13,38 @@
             <div class="gap-x-7 flex">    
                 <div class="w-full">
                     <?php
+                        
                         paymentTypeCard(
                             "Airtel Payment", 
-                            "/pages/mobile-money-payment.php?pid=1", 
-                            "/public/assets/airtel-logo.png",
+                            "$BASE_URL/pages/mobile-money-payment.php?pid=1", 
+                            "$BASE_URL/public/assets/airtel-logo.png",
                             "airtel logo"
                         );
                         paymentTypeCard(
                             "MTN Payment", 
-                            "/pages/mobile-money-payment.php?pid=2", 
-                            "/public/assets/mtn-money-logo.jpg",
+                            "$BASE_URL/pages/mobile-money-payment.php?pid=2", 
+                            "$BASE_URL/public/assets/mtn-money-logo.jpg",
                             "mtn logo"
                         );
                         paymentTypeCard(
                             "Zamtel Payment", 
-                            "/pages/mobile-money-payment.php?pid=3", 
-                            "/public/assets/zamtel-zambia-logo.png",
+                            "$BASE_URL/pages/mobile-money-payment.php?pid=3", 
+                            "$BASE_URL/public/assets/zamtel-zambia-logo.png",
                             "zamtel logo"
                         );
 
-                        paymentTypeCard2();
+                        paymentTypeCard2($BASE_URL);
                     ?>
                 </div>
 
-                <?php include './src/components/checkout_summary/details.php';  ?>
+                <?php include '../src/components/checkout_summary/details.php';  ?>
 
             </div>
         </div>
 
         <div class="block md:hidden">
             <?php 
-                include './src/components/checkout_summary/details.php';  
+                include '../src/components/checkout_summary/details.php';  
             ?>
 
         </div>
