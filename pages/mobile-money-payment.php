@@ -33,11 +33,11 @@
 
                     <div class="hidden md:block">
                       <?php 
-                        backButton(BASE_URL."/pages");
+                        backButton(BASE_URL."/");
                       ?>
                     </div>
 
-                    <p id="title-text" class="text-xl font-medium mb-4 uppercase"></p>
+                    <p id="title-text" class="text-xl font-medium mb-8 uppercase"></p>
 
                     <?php
                       include_once '../src/forms/single_payment_form.php';

@@ -8,14 +8,20 @@
         <label class="label">
             <span class="label-text">Phone Number</span>
         </label>
-        <input
-            name="phone_number" 
-            type="text" 
-            placeholder="enter your phone number" 
-            class="input input-bordered w-full" 
-            autocomplete="off"
-        />
+        <div class="flex items-center">
+            <span class="absolute ml-2 flex justify-center w-10">
+                <p>+260</p>
+            </span>
+            <input
+                name="phone_number" 
+                type="text" 
+                placeholder="enter your phone number" 
+                class="input input-bordered w-full pl-14" 
+                autocomplete="off"
+            />
+        </div>
     </div>
+
 
     <div class="flex">
         <div class="grow"></div>
@@ -32,10 +38,28 @@
 
 </form >
 
+<dialog id="my_modal_1" class="modal">
+    <div class="modal-box">
+        <h3 class="font-bold text-lg">Alert</h3>
+        <p class="py-2">Please approve transaction on your mobile device.</p>
+        <div class="modal-action">
+            <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+            </form>
+        </div>
+    </div>
+</dialog>
+
+
+    
+    
+
+
 <script>
     var element =  document.getElementById("spinner");
 
-    async function stall(stallTime = 7000) {
+    async function stall(stallTime = 3000) {
         await new Promise(resolve => setTimeout(resolve, stallTime));
     }
 
@@ -64,6 +88,7 @@
             swapper()
             await stall()
             swapper()
+            my_modal_1.showModal()
 
             return false
         }

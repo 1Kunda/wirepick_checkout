@@ -1,5 +1,5 @@
 <?php 
-    include_once '../src/components/general/container.php';  
+    include_once './src/components/general/container.php';  
     include 'payment_type_card.php';
 
     $BASE_URL = BASE_URL;
@@ -37,14 +37,14 @@
                     ?>
                 </div>
 
-                <?php include '../src/components/checkout_summary/details.php';  ?>
+                <?php include './src/components/checkout_summary/details.php';  ?>
 
             </div>
         </div>
 
         <div class="block md:hidden">
             <?php 
-                include '../src/components/checkout_summary/details.php';  
+                include './src/components/checkout_summary/details.php';  
             ?>
 
         </div>

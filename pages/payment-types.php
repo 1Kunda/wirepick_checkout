@@ -18,7 +18,7 @@
       include_once '../src/components/general/container.php';  
       include_once '../src/components/payments/payment_type_card.php';
       include_once '../src/components/buttons/action_buttons.php';
-      
+
       $BASE_URL = BASE_URL;
     ?>
 
@@ -27,7 +27,7 @@
         <div class="w-full pt-10">
           <div id="payment-methods" class="w-full block md:hidden">
               <?php 
-                backButton($BASE_URL."/pages");
+                backButton($BASE_URL."/");
               ?>
               <p class="font-medium text-xl mb-4 uppercase"> Payment Methods </p>
               <div class="w-full">

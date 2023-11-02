@@ -124,7 +124,7 @@
         </button>
     </div>
     <div>
-        <a href=<?php echo BASE_URL."/pages"; ?>>
+        <a href=<?php echo BASE_URL."/"; ?>>
             <button 
                 class="btn bg-[#2f64a1] text-white uppercase w-36"
                 type="submit"
@@ -138,9 +138,9 @@
 </div>
 
 
-<script src="/src/scripts/qrcode.min.js"></script>
-<script src="/node_modules/html2canvas/dist/html2canvas.min.js"></script>
-<script src="/node_modules/jspdf/dist/jspdf.umd.min.js"></script>
+<script src="../src/scripts/qrcode.min.js"></script>
+<script src="../node_modules/html2canvas/dist/html2canvas.min.js"></script>
+<script src="../node_modules/jspdf/dist/jspdf.umd.min.js"></script>
 
 <script type="text/javascript">
     
